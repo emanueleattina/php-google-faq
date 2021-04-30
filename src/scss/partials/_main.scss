@@ -1,0 +1,26 @@
+main {
+    .section-container {
+        font-size: 0.85em;
+        padding-bottom: 20px;
+        h4 {
+            font-size: 1.75em;
+            font-weight: 500;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 30px;
+            // font-size: 0.85em;
+            a {
+                color: $link;
+                cursor: pointer;
+                text-transform: none;
+            }
+        }
+        ol {
+            margin-left: 1em;
+            line-height: 23px;
+        }
+        
+    }
+}
