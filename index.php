@@ -140,9 +140,9 @@
             <div class="container">
                 <div class="footer-left">
                     <ul>
-                        <li>Google</li>
-                        <li>Tutto su Google</li>
-                        <li>Privacy</li>
+                        <li>Google ∙</li>
+                        <li>Tutto su Google ∙</li>
+                        <li>Privacy ∙</li>
                         <li>Termini</li>
                     </ul>
                 </div>

@@ -1,4 +1,35 @@
 footer {
     border-top: 1px solid rgba(151,151,151,0.25);
     padding: 15px 0;
+    display: flex;
+    align-items: center;
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        .footer-left {
+            ul {
+                display: flex;
+                list-style: none;
+                font-size: 0.8em;
+                opacity: 0.5;
+                li {
+                    cursor: pointer;
+                }
+            }
+        }
+        .footer-right {
+            display: flex;
+            align-items: center;
+            select {
+                background: $sfondo;
+                color: #fff;
+                border: 1px solid rgba(151,151,151,0.25);
+                padding-right: 50px;
+                margin-left: 10px;
+            }
+        }
+    }
+    
 }
