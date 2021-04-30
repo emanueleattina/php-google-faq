@@ -10,7 +10,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   background-color: #28292A;
-  color: #8E8E8D;
+  color: #B6B1AA;
 }
 
 p {
@@ -202,4 +202,62 @@ p {
 
 .mr-100 {
   margin-right: 100px;
+}
+
+nav {
+  color: #8E8E8D;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.25);
+}
+nav .navbar-top {
+  display: flex;
+  justify-content: space-between;
+}
+nav .navbar-top .navbar-left {
+  display: flex;
+  align-items: center;
+}
+nav .navbar-top .navbar-left img {
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+  cursor: pointer;
+}
+nav .navbar-top .navbar-left span {
+  font-size: 1.25em;
+  cursor: pointer;
+}
+nav .navbar-top .navbar-right {
+  display: flex;
+  align-items: center;
+}
+nav .navbar-top .navbar-right svg {
+  height: 24px;
+  fill: currentColor;
+  cursor: pointer;
+}
+nav .navbar-top .navbar-right .avatar img {
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+}
+nav .navbar-bottom {
+  margin-top: 10px;
+}
+nav .navbar-bottom ul {
+  list-style: none;
+  display: flex;
+}
+nav .navbar-bottom ul li {
+  margin-right: 55px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+nav .navbar-bottom ul li.active {
+  color: #4F8BCB;
+  border-bottom: 2px solid #2c4c8f;
 }
